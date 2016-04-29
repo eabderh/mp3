@@ -1,0 +1,2 @@
+tcpdump: listening on eth2, link-type EN10MB (Ethernet), capture size 65535 bytes
+sudo tcpdump -n -i eth2 -v arp -l | tee router-1_tcpdump.dat 2>&1

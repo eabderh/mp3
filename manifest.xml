@@ -1,0 +1,168 @@
+<?xml version="1.0" ?><rspec expires="2016-05-01T22:05:10Z" type="manifest" xmlns="http://www.geni.net/resources/rspec/3" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1" xmlns:jacks="http://www.protogeni.net/resources/rspec/ext/jacks/1" xmlns:tour="http://www.protogeni.net/resources/rspec/ext/apt-tour/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.geni.net/resources/rspec/3    http://www.geni.net/resources/rspec/3/manifest.xsd">  
+  <node client_id="router-0" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11328" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36414" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36414" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36414" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36414" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36414" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-1" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="0217b5ccc8d9" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11337">      <ip address="10.10.1.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-8" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="025046582cf5" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11348">      <ip address="10.10.5.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-19" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="022f90592db4" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11364">      <ip address="10.10.10.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-32"/>    <host name="router-0.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="router-1" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11329" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36415" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36415" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36415" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36415" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36415" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-3" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="022b82f33bd7" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11340">      <ip address="10.10.2.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-9" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="020e14fd70a3" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11349">      <ip address="10.10.5.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-11" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="022a1755eb34" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11352">      <ip address="10.10.6.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-23" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="029f2c83f8ae" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11367">      <ip address="10.10.11.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-25" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="022348e509da" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11370">      <ip address="10.10.12.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-33"/>    <host name="router-1.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="router-2" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11330" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36416" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36416" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36416" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36416" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36416" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-7" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02315cf806e9" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11346">      <ip address="10.10.4.2" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-34"/>    <host name="router-2.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="router-3" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11331" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36417" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36417" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36417" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36417" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36417" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-5" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="0216975f5654" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11343">      <ip address="10.10.3.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-17" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02899d2883eb" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11361">      <ip address="10.10.9.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-18" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02bccf8dbe95" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11363">      <ip address="10.10.10.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-35"/>    <host name="router-3.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="router-4" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11332" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36418" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36418" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36418" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36418" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36418" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-15" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02e493331b10" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11358">      <ip address="10.10.8.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-16" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02192c9bb71f" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11360">      <ip address="10.10.9.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-22" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="026902111927" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11366">      <ip address="10.10.11.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-36"/>    <host name="router-4.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="router-5" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11333" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36419" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36419" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36419" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36419" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36419" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-13" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02d84b6c2afe" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11355">      <ip address="10.10.7.2" type="ipv4"/>    </interface>    
+    <interface client_id="interface-14" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02bec8cea706" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11357">      <ip address="10.10.8.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-24" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="0255f71af18c" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11369">      <ip address="10.10.12.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-37"/>    <host name="router-5.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="host-0" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11324" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36410" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36410" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36410" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36410" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36410" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-0" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="022cb5641878" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11336">      <ip address="10.10.1.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-27"/>    <host name="host-0.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="host-1" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11325" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36411" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36411" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36411" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36411" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36411" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-2" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="028d5e522e22" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11339">      <ip address="10.10.2.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-29"/>    <host name="host-1.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="host-2" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11326" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36412" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36412" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36412" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36412" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36412" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-6" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02202e17f525" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11345">      <ip address="10.10.4.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-10" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="0245935e1482" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11351">      <ip address="10.10.6.1" type="ipv4"/>    </interface>    
+    <interface client_id="interface-12" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02e171b0fecc" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11354">      <ip address="10.10.7.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-30"/>    <host name="host-2.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <node client_id="host-3" component_id="urn:publicid:IDN+geni.case.edu+node+pc3" component_manager_id="urn:publicid:IDN+geni.case.edu+authority+cm" exclusive="false" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11327" xmlns:emulab="http://www.protogeni.net/resources/rspec/ext/emulab/1">    
+    <icon url="https://portal.geni.net/images/Xen-VM.svg" xmlns="http://www.protogeni.net/resources/rspec/ext/jacks/1"/>    
+    <sliver_type name="emulab-xen">      
+      <disk_image name="urn:publicid:IDN+emulab.net+image+emulab-ops:UBUNTU14-64-STD"/>      
+    </sliver_type>    
+    <services>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36413" username="rizard01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36413" username="kwang01"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36413" username="harlanr"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36413" username="qw"/>      <login authentication="ssh-keys" hostname="pc3.geni.case.edu" port="36413" username="eabderh"/>      <emulab:console server="pc3.geni.case.edu"/>    </services>    
+    <interface client_id="interface-4" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" mac_address="02ded5b02e82" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11342">      <ip address="10.10.3.1" type="ipv4"/>    </interface>    
+    <emulab:vnode hardware_type="pcvm" name="pcvm3-31"/>    <host name="host-3.mp3-EABDERH.ch-geni-net.geni.case.edu"/>  </node>  
+  <link client_id="link-0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11335">    
+    <interface_ref client_id="interface-0" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11336"/>    
+    <interface_ref client_id="interface-1" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11337"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-1" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11338">    
+    <interface_ref client_id="interface-2" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11339"/>    
+    <interface_ref client_id="interface-3" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11340"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-2" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11341">    
+    <interface_ref client_id="interface-4" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11342"/>    
+    <interface_ref client_id="interface-5" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11343"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-3" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11344">    
+    <interface_ref client_id="interface-6" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11345"/>    
+    <interface_ref client_id="interface-7" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11346"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-4" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11347">    
+    <interface_ref client_id="interface-8" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11348"/>    
+    <interface_ref client_id="interface-9" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11349"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-5" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11350">    
+    <interface_ref client_id="interface-10" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11351"/>    
+    <interface_ref client_id="interface-11" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11352"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-6" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11353">    
+    <interface_ref client_id="interface-12" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11354"/>    
+    <interface_ref client_id="interface-13" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11355"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-7" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11356">    
+    <interface_ref client_id="interface-14" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11357"/>    
+    <interface_ref client_id="interface-15" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11358"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-8" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11359">    
+    <interface_ref client_id="interface-16" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11360"/>    
+    <interface_ref client_id="interface-17" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11361"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-9" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11362">    
+    <interface_ref client_id="interface-18" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11363"/>    
+    <interface_ref client_id="interface-19" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11364"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-11" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11365">    
+    <interface_ref client_id="interface-22" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11366"/>    
+    <interface_ref client_id="interface-23" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11367"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <link client_id="link-12" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11368">    
+    <interface_ref client_id="interface-24" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11369"/>    
+    <interface_ref client_id="interface-25" component_id="urn:publicid:IDN+geni.case.edu+interface+pc3:lo0" sliver_id="urn:publicid:IDN+geni.case.edu+sliver+11370"/>    
+
+    <component_manager name="urn:publicid:IDN+geni.case.edu+authority+cm"/>    
+  </link>  
+  <rs:site_info xmlns:rs="http://www.protogeni.net/resources/rspec/ext/site-info/1">    <rs:location country="US" latitude="41.50588" longitude="-81.609169"/>  </rs:site_info></rspec>

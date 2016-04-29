@@ -1,0 +1,51 @@
+
+Host host-0
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36410
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host host-1
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36411
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host host-2
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36412
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host host-3
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36413
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host router-0
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36414
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host router-1
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36415
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host router-2
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36416
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host router-3
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36417
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host router-4
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36418
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa
+Host router-5
+	User eabderh
+	Hostname pc3.geni.case.edu
+	Port 36419
+	IdentityFile ~/.ssh/ssh_keys/geni/id_rsa

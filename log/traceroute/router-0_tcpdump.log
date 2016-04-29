@@ -1,0 +1,4 @@
+14:14:51.694062 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.10.2.1 tell 10.10.1.1, length 28
+14:14:52.693842 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.10.2.1 tell 10.10.1.1, length 28
+14:14:53.693965 ARP, Ethernet (len 6), IPv4 (len 4), Request who-has 10.10.2.1 tell 10.10.1.1, length 28
+sudo tcpdump -n -i eth3 -v arp -l | tee router-0_tcpdump.dat 2>&1

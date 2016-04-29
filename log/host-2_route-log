@@ -1,0 +1,10 @@
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         172.16.0.1      0.0.0.0         UG    0      0        0 eth0
+10.0.0.0        router-1-link-5 255.0.0.0       UG    0      0        0 eth1
+10.10.4.0       *               255.255.255.0   U     0      0        0 eth2
+10.10.6.0       *               255.255.255.0   U     0      0        0 eth1
+10.10.7.0       *               255.255.255.0   U     0      0        0 eth3
+10.10.8.0       router-5-link-6 255.255.255.254 UG    0      0        0 eth3
+10.10.12.0      router-5-link-6 255.255.255.254 UG    0      0        0 eth3
+172.16.0.0      *               255.240.0.0     U     0      0        0 eth0
